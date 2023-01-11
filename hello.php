@@ -73,6 +73,23 @@ echo "\n";
 // Constant
 define("UMUR",15);      // define untuk membuat data yang tidak bisa diubah
 echo (UMUR);
-echo (" tahun");
-?>
+echo (" tahun\n");
 
+// expression
+$z = 20;
+$q = $z;
+function getValue($z){
+return ($z);
+}
+$value = getValue($z);
+echo getValue($z);
+
+//block
+function biodata(){             // beberapa perintah dalam function
+echo "\nElina Karimova ";
+echo "ITB University ";
+echo "Bandung";
+}
+
+biodata();
+?>
