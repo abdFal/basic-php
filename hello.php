@@ -48,9 +48,14 @@ echo "\n";
 $perumahan = 
 array(
     "id" => "7",                    // id adalah key dan 7 adalah value
-    "nama" => "Citra Indah City \n",   
+    "perumahan" => "Citra Indah City \n",   
 );
-echo ($perumahan["nama"]);
+echo ($perumahan["perumahan"]);
+
+//menambah array pada map
+$perumahan ["kabupaten"] = "Bogor";
+echo ($perumahan["kabupaten"]);
+echo ("\n");
 
 // deklarasi array didalam array
 $sekolah = array(
@@ -63,6 +68,11 @@ $sekolah = array(
 );
 echo ($sekolah["nama"]);
 echo ($sekolah["alamat"]["kecamatan"]); // memanggil array dalam array
+echo "\n";
 
+// Constant
+define("UMUR",15);      // define untuk membuat data yang tidak bisa diubah
+echo (UMUR);
+echo (" tahun");
 ?>
 
