@@ -19,7 +19,7 @@ else{
 // Switch Statement
 $predikat = "Z";        
 
-// menentukan apakah BISA / ADA
+// menentukan apakah dia BISA / ADA
 switch($predikat):      
     case "A":
         echo "Anda lulus dengan sangat bisa" . PHP_EOL;
