@@ -1,2 +1,2 @@
 
-### Here are some php lessons that i have so, yeah check it out!
+### Here are some php lessons that i have so, check it out! ty
