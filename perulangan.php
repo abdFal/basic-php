@@ -3,13 +3,13 @@
 // Kode perulangan dengan kondisi
 $p = 10;
 for (; $p >= 4;) {
-    echo "Ulangi $p" . PHP_EOL;
+    echo "Repeat $p" . PHP_EOL;
 $p--;
 };
 
 // Kode perulangan dengan Post Statement :
 for ($c = 4; $c <= 10; $c++){
-    echo "Hitung $c" . PHP_EOL;
+    echo "Count $c" . PHP_EOL;
 }
 
 // Alternatif Loop
@@ -27,10 +27,10 @@ while ($r >= 7){
     $r--;
 }
 
-// While Loop
+// Do While Loop
 $o = 10;
 do {
-echo "Ini adalah do while ke-$o" . PHP_EOL;
+echo "This is do while $o" . PHP_EOL;
 $o++;
 } while ($o <= 20);
 
@@ -43,11 +43,11 @@ while(true){
         break;      // memberhentikan loop saat kondisi terjadi
     }};
 
-for ($counter = 1; $counter <= 10; $counter++) {
-    if ($counter % 2 !== 0) {   // loop saat kondisi bilangan genap
+for ($call = 1; $call <= 10; $call++) {
+    if ($call % 2 !== 0) {   // loop saat kondisi bilangan genap
     continue;
 }
-    echo "Angka $counter" . PHP_EOL;
+    echo "My Num $call" . PHP_EOL;
 }
 
 // For Each Loop
@@ -58,9 +58,9 @@ foreach ($list as $list){
 
 //Untuk array assosiatif (Map)
 $daftar = [
-"absen_1" => "Maxmiano",
-"absen_2" => "Dialovares",
-"absen_3" => "Rodriguez"
+"first_1" => "Maxmiano",
+"second_2" => "Dialovares",
+"third_3" => "Rodriguez"
 ];
 foreach ($daftar as $key => $value) {
     echo "$key : $value" . PHP_EOL;
